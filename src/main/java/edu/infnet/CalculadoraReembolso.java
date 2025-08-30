@@ -18,4 +18,8 @@ public class CalculadoraReembolso {
         }
         return (valorDaConsulta * porcentualDeCobertura) / 100;
     }
+
+    public void calcular(IPaciente paciente) {
+        // Implementação futura
+    }
 }

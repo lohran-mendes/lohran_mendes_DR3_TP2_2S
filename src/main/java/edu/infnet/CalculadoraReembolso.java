@@ -8,10 +8,6 @@ public class CalculadoraReembolso {
         this.autorizadorReembolso = autorizadorReembolso;
     }
 
-    public int getPorcentualDeCobertura() {
-        return porcentualDeCobertura;
-    }
-
     public void setPorcentualDeCobertura(int porcentualDeCobertura) {
         this.porcentualDeCobertura = porcentualDeCobertura;
     }
@@ -28,6 +24,5 @@ public class CalculadoraReembolso {
     }
 
     public void calcular(IPaciente paciente) {
-        // Implementação futura
     }
 }
